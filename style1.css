@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    box-sizing: border-box;
+}
+
+.img{
+    image-rendering: pixelated;
+    image-orientation: inherit;
+    height: 5rem;
+    width: auto;
+
+}
+body{
+  margin: 5px;
+  padding: 3rem 9rem;
+  line-height: 1.6;
+  font-size: 1rem;
+  color: black;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+  ;
+
+}
+body{
+    background-image: url(kkk.jpg);
+    background-position: 50% 50%;
+    background-attachment: fixed;
+    background-repeat: repeat;
+    
+    
+}
+h1{
+    color: cyan;
+    text-shadow: black;
+    font-weight: 500;
+    font-style: oblique;
+    font-stretch: extra-condensed;
+}
+#jjj h1{
+    color: black;
+}
+#hhh {
+    text-align: center;
+}
+.tt{
+    column-gap: 40px;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: 36px;
+    line-height: 35px;
+    background-color: cornflowerblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    width: 500px;
+}
+li{
+    float: left;
+    border: 1px solid black;
+} 
+a{
+    display: block;
+    padding: 0 28px;
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    background-color: black;
+}
+.aaaa a{
+    background-color: black;
+}
+#center{
+    text-align: center;
+}
+#center h1{
+    color: cadetblue;
+}
+#center p{
+    margin: 5px;
+    padding: 3rem 9rem;
+    color: rgb(148, 190, 218);
+    font-style: oblique;
+}
+h3{
+    font-style: oblique;
+}
+.box input[type ="text"],.box input[type ="password"]{
+  text-align: center;
+  border: 2px solid lightskyblue;
+  padding: 10px 5px;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+select{
+    text-align: center;
+  border: 2px solid lightskyblue;
+  padding: 10px 12px;
+  border-radius: 24px;
+  transition: 0.25s;
+
+}
+h6{
+    font-style: oblique;
+    padding: 2px;
+    color: lightslategrey;
+}
+h5{
+    font-style: oblique;
+    padding: 2px;
+    color: lightslategrey;
+}
+button{
+    position: relative;
+    text-align: center;
+    font-weight: 400;
+    border: 1px solid lightskyblue;
+    color: grey;
+    border-radius: 100px;
+    font-size: 20px;
+    font-style: oblique;
+    cursor: pointer;
+}
+button:hover{
+    box-shadow:  0 5px 50px ;
+}
+#nit p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    font-style: inherit;
+}
+.okok h1{
+    color:lightskyblue;
+    margin: 1rem 1.5rem;
+}
+.search{
+    text-align: right;
+    
+}
+.search input[type="search"]{
+    border: black;
+    border-radius: 30px;
+    text-align: center;
+    width: 20rem;
+    
+}
